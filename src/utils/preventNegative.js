@@ -1,0 +1,1 @@
+export const preventNegative = (e) => ['+', '-'].includes(e.key) && e.preventDefault();
